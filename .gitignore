@@ -1,0 +1,21 @@
+# Windows-specific
+Thumbs.db
+Desktop.ini
+
+# MATLAB specific
+# Ignore autosave files
+*.asv
+*.m~
+*.bak
+
+# Ignore workspace files (huge binary files you don't want on GitHub)
+*.mat
+*.fig
+
+# Ignore Simulink-generated cache
+*.slxc
+*.slddc
+
+# Ignore project files that are local to your machine
+*.prj
+/html/
